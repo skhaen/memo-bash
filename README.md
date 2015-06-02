@@ -63,7 +63,7 @@ Sur les chaînes de caractères
 
 Sur les nombres
 
-* `[ n1 -eq n2 ]` - vrai si n1 et n2 sont égaux (_EQ_ual),
+* `[ n1 -eq n2 ]` - vrai si n1 et n2 sont égaux (**EQ**ual),
 * `[ n1 -ne n2 ]` - vrai si n1 et n2 sont différents (Not Equal),
 * `[ n1 -lt n2 ]` - vrai si n1 est strictement inférieur à n2 (Less Than),
 * `[ n1 -le n2 ]` - vrai si n1 est inférieur ou égal à n2 (Less or Equal),
