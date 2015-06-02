@@ -10,7 +10,7 @@ memo bash
 Argument
 --------
 
-* `$0` : nom du script. paramètre 0 de la ligne de commande, équivalent de `argv[0]`
+* `$0` : nom du script. paramètre `0` de la ligne de commande, équivalent de `argv[0]`
 * `$1`, `$2`, ..., `$9` : respectivement 1er, 2ème, ..., 9ème paramètre de la ligne de commande
 * `$*` : tous les paramètres vus comme un seul mot
 * `$@` : tous les paramètres vus comme des mots séparés : `$@` équivaut à `$1` `$2`
@@ -46,13 +46,13 @@ Sur les variables :
 
 Sur les fichiers :
 
-* `[ -e $FILE ]` - vrai si $FILE existe dans le répertoire courant,
-* `[ -s $FILE ]` - vrai si $FILE existe dans le répertoire courant et si sa taille est supérieure à zéro,
-* `[ -f $FILE ]` - vrai si $FILE est un fichier dans le répertoire courant,
-* `[ -r $FILE ]` - vrai si $FILE est un fichier lisible dans le répertoire courant,
-* `[ -w $FILE ]` - vrai si $FILE est un fichier inscriptible dans le répertoire courant,
-* `[ -x $FILE ]` - vrai si $FILE est un fichier exécutable dans le répertoire courant,
-* `[ -d $FILE ]` - vrai si $FILE est un répertoire dans le répertoire courant.
+* `[ -e $FILE ]` - vrai si `$FILE` existe dans le répertoire courant,
+* `[ -s $FILE ]` - vrai si `$FILE` existe dans le répertoire courant et si sa taille est supérieure à zéro,
+* `[ -f $FILE ]` - vrai si `$FILE` est un fichier dans le répertoire courant,
+* `[ -r $FILE ]` - vrai si `$FILE` est un fichier lisible dans le répertoire courant,
+* `[ -w $FILE ]` - vrai si `$FILE` est un fichier inscriptible dans le répertoire courant,
+* `[ -x $FILE ]` - vrai si `$FILE` est un fichier exécutable dans le répertoire courant,
+* `[ -d $FILE ]` - vrai si `$FILE` est un répertoire dans le répertoire courant.
 
 Sur les chaînes de caractères
 
@@ -63,7 +63,7 @@ Sur les chaînes de caractères
 
 Sur les nombres
 
-* `[ n1 -eq n2 ]` - vrai si n1 et n2 sont égaux (EQual),
+* `[ n1 -eq n2 ]` - vrai si n1 et n2 sont égaux (_EQual),
 * `[ n1 -ne n2 ]` - vrai si n1 et n2 sont différents (Not Equal),
 * `[ n1 -lt n2 ]` - vrai si n1 est strictement inférieur à n2 (Less Than),
 * `[ n1 -le n2 ]` - vrai si n1 est inférieur ou égal à n2 (Less or Equal),
