@@ -63,17 +63,17 @@ Sur les chaînes de caractères
 
 Sur les nombres
 
-* `[ n1 -eq n2 ]` - vrai si n1 et n2 sont égaux (**EQ**ual),
-* `[ n1 -ne n2 ]` - vrai si n1 et n2 sont différents (Not Equal),
-* `[ n1 -lt n2 ]` - vrai si n1 est strictement inférieur à n2 (Less Than),
-* `[ n1 -le n2 ]` - vrai si n1 est inférieur ou égal à n2 (Less or Equal),
-* `[ n1 -gt n2 ]` - vrai si n1 est strictement supérieur à n2 (Greater Than),
-* `[ n1 -ge n2 ]` - vrai si n1 est supérieur ou égal à n2 (Greater or Equal).
+* `[ n1 -eq n2 ]` - vrai si n1 et n2 sont égaux (**eq**ual),
+* `[ n1 -ne n2 ]` - vrai si n1 et n2 sont différents (**n**ot **n**qual),
+* `[ n1 -lt n2 ]` - vrai si n1 est strictement inférieur à n2 (**l**ess **t**han),
+* `[ n1 -le n2 ]` - vrai si n1 est inférieur ou égal à n2 (**l**ess or **e**qual),
+* `[ n1 -gt n2 ]` - vrai si n1 est strictement supérieur à n2 (**g**reater **t**han),
+* `[ n1 -ge n2 ]` - vrai si n1 est supérieur ou égal à n2 (**g**reater or **e**qual).
 
 Tests et logique
 ----------------
 
-* `[ ! e ]` - vrai si e est faux. ! est la négation.
-* `[ e1 -a e2 ]` - vrai si e1 et e2 sont vrais. -a ou le et logique (And).
-* `[ e1 -o e2 ]` - vrai si e1 ou e2 est vrai. -o ou le ou logique (Or).
+* `[ ! e ]` - vrai si e est faux. `!` est la négation.
+* `[ e1 -a e2 ]` - vrai si e1 et e2 sont vrais. `-a` ou le et logique (**and**).
+* `[ e1 -o e2 ]` - vrai si e1 ou e2 est vrai. `-o` ou le ou logique (**or**).
 
